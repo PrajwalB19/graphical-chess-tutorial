@@ -21,7 +21,7 @@ It demonstrates basic graphics programming, loops, functions, event handling, an
 2. Open `index.html` in a web browser.
 3. Click and hold a chess piece to see its description.
 
-Or try it online via **[GitHub Pages](https://yourusername.github.io/chess-tutorial/)** *(replace with actual URL if hosted)*.
+Or try it online via **[GitHub Pages](https://prajwalb19.github.io/graphical-chess-tutorial/)**.
 
 ## File Structure
 ```
