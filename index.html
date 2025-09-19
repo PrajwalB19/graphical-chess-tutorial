@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Chess Pieces Tutorial — p5.js</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.2/p5.min.js"></script>
+  <link rel="stylesheet" href="style.css">
+  <meta name="description" content="Interactive chess pieces tutorial built with p5.js — click and hold pieces to read about them." />
+</head>
+<body>
+  <script src="sketch.js"></script>
+  <script>
+    document.addEventListener('touchmove', function(e) {
+      if (e.target.closest('canvas')) e.preventDefault();
+    }, { passive: false });
+  </script>
+</body>
+</html>

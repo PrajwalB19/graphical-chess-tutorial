@@ -1,0 +1,11 @@
+# OS files
+.DS_Store
+Thumbs.db
+
+# VSCode
+.vscode/
+
+# Node / npm stuff (if any)
+node_modules/
+npm-debug.log
+yarn-error.log
